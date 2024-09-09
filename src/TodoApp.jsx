@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { TodoContext } from './TodoContext';
-import './styles.css';
+import './styles.scss'
 
 function TodoApp() {
   const { dailyTodos, onceTodos, addTodo, toggleTodoDone, removeTodo, clearCompletedTodos } = useContext(TodoContext);

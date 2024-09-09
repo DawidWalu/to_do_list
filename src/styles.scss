@@ -1,0 +1,20 @@
+$primary-color: #6a4caf;
+$font-color: #b95527;
+
+.todo-list {
+  font-family: Arial, sans-serif;
+  color: $font-color;
+
+  h1 {
+    color: $primary-color;
+  }
+
+  h2 {
+    border-bottom: 1px solid $primary-color;
+  }
+
+  .done-task {
+    text-decoration: line-through;
+    color: gray;
+  }
+}
